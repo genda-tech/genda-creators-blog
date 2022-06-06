@@ -12,7 +12,7 @@ export const config = {
     },
     {
       title: 'Recruit',
-      href: 'https://hrmos.co/pages/genda',
+      href: 'https://hrmos.co/pages/genda/jobs',
     },
   ],
 };

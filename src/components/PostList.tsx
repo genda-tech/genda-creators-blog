@@ -45,7 +45,7 @@ const PostLink: React.FC<{ item: PostItem }> = (props) => {
 };
 
 export const PostList: React.FC<{ items: PostItem[] }> = (props) => {
-  const [displayItemsCount, setDisplayItemsCount] = useState<number>(32);
+  const [displayItemsCount, setDisplayItemsCount] = useState<number>(20);
   const totalItemsCount = props.items?.length || 0;
   const canLoadMore = totalItemsCount - displayItemsCount > 0;
 
@@ -62,7 +62,7 @@ export const PostList: React.FC<{ items: PostItem[] }> = (props) => {
       </div>
       {canLoadMore && (
         <div className="post-list-load">
-          <button onClick={() => setDisplayItemsCount(displayItemsCount + 32)} className="post-list-load__button">
+          <button onClick={() => setDisplayItemsCount(displayItemsCount + 20)} className="post-list-load__button">
             LOAD MORE
           </button>
         </div>
