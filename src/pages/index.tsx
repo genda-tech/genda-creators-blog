@@ -13,44 +13,34 @@ const Page: NextPage = () => {
   return (
     <>
       <PageSEO
-        title={config.siteMeta.title}
-        description={config.siteMeta.description}
+        title={config.topMeta.title}
+        description={config.topMeta.description}
         path="/"
         removeSiteNameFromTitle={true}
       />
 
       <section className="home-hero">
         <ContentWrapper>
-          <h1 className="home-hero__title">{config.siteMeta.title}</h1>
-          {!!config.siteMeta.description && <p className="home-hero__description">{config.siteMeta.description}</p>}
+          <h1 className="home-hero__title">{config.topMeta.title}</h1>
+          {!!config.topMeta.description && <p className="home-hero__description">{config.topMeta.description}</p>}
         </ContentWrapper>
       </section>
 
-      <section className="home-members">
+      <section className="home-blogs">
         <ContentWrapper>
           <div className="home-section-title-container">
-            <h2 className="home-section-title">Members</h2>
-            <Link href="/members">
-              <a className="home-section-link">See Details →</a>
-            </Link>
+            <h2 className="home-section-title">Blogs</h2>
           </div>
 
-          <div className="home-members-container">
-            <UndoWrapForScroll>
-              <ScrollableMembers />
-            </UndoWrapForScroll>
-          </div>
-        </ContentWrapper>
-      </section>
+          <div className="home-blogs-container">
+            <ul>
+              <li>
+                <Link href="/creators">
+                  <a className="home-section-link">GENDA Creators Blog</a>
+                </Link>
+              </li>
+            </ul>
 
-      <section className="home-posts">
-        <ContentWrapper>
-          <div className="home-section-title-container">
-            <h2 className="home-section-title">Articles</h2>
-          </div>
-
-          <div className="home-posts-container">
-            <PostList items={posts as PostItem[]} />
           </div>
         </ContentWrapper>
       </section>
