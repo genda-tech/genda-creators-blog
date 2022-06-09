@@ -2,18 +2,19 @@ import Link from 'next/link';
 import { config } from '@site.config';
 
 import { ContentWrapper } from '@src/components/ContentWrapper';
+import { getTitleFromPathname, getPathFromPathname, getLogoTextFromPathname } from '@src/utils/helper';
 
 export const SiteHeader: React.FC = () => (
   <header className="site-header">
     <ContentWrapper>
       <div className="site-header__inner">
-        <Link href="/" passHref>
+        <Link href={getPathFromPathname()} passHref>
           <a className="site-header__logo-link">
-            <img src="/creators/logo.png" alt={config.siteMeta.title} className="site-header__logo-img" />
+            <img src="/logo.png" alt={getTitleFromPathname()} className="site-header__logo-img" />
             <span className="site-header__logo-text">
               GENDA
               <br />
-              Creators Blog
+              {getLogoTextFromPathname()}
             </span>
           </a>
         </Link>

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import { config } from '@site.config';
+import { getOgImageFromPathname } from '@src/utils/helper';
 
 // types
 type Props = {
@@ -23,7 +24,7 @@ export const PageSEO: React.FC<Props> = (props) => {
       <meta property="og:url" content={pageUrl} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:site" content={config.siteMeta.title} />
-      <meta property="og:image" content={ogImageUrl || `${config.siteRoot}/og.png`} />
+      <meta property="og:image" content={ogImageUrl || `${config.siteRoot}/${getOgImageFromPathname()}`} />
       {!!description && (
         <>
           <meta name="description" content={description} />
