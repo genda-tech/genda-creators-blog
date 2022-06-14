@@ -18,10 +18,10 @@ export const members: Member[] = [
     realName: '池田健人',
     bio: 'Engineering Manager',
     avatarSrc: '/avatars/ikenyal.jpeg',
-    sources: [ 'https://qiita.com/ikenyal/feed' ],
+    sources: [ 'https://qiita.com/ikenyal/feed', 'https://zenn.dev/ikenyal/feed' ],
     twitterUsername: 'ikenyal',
     githubUsername: 'ikenyal',
-    websiteUrl: 'https://qiita.com/ikenyal',
+    websiteUrl: 'https://zenn.dev/ikenyal',
   },
   {
     id: '7kaji',
