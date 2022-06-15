@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import { config } from '@site.config';
 import { getOgImageFromPathname } from '@src/utils/helper';
+import { gaTrackingId } from '@src/utils/gtag';
 
 // types
 type Props = {
@@ -33,6 +34,23 @@ export const PageSEO: React.FC<Props> = (props) => {
       )}
       {path && <link rel="canonical" href={pageUrl} />}
       {noindex && <meta name="robots" content="noindex" />}
+      {gaTrackingId && (
+            <>
+              <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaTrackingId}`} />
+              <script
+                dangerouslySetInnerHTML={{
+                  __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gaTrackingId}', {
+              page_path: window.location.pathname,
+            });
+        `,
+                }}
+              />
+            </>
+          )}
     </Head>
   );
 };

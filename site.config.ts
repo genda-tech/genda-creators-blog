@@ -24,4 +24,5 @@ export const config = {
       href: 'https://hrmos.co/pages/genda/jobs',
     },
   ],
+  gaTrackingId: process.env.gaTrackingId,
 };
