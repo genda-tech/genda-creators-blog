@@ -122,4 +122,15 @@ export const members: Member[] = [
     //githubUsername: '',
     //websiteUrl: '',
   },
+  {
+    id: 'WorldDownTown',
+    nickname: 'WorldDownTown',
+    realName: '庄司啓輔',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/worlddowntown.jpeg',
+    sources: [ 'https://qiita.com/WorldDownTown/feed' ],
+    twitterUsername: 'WorldDownTown',
+    githubUsername: 'WorldDownTown',
+    websiteUrl: 'https://qiita.com/WorldDownTown',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
