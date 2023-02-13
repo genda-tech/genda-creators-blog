@@ -20,7 +20,7 @@ export const config = {
       href: 'https://genda.jp/',
     },
     {
-      title: 'Recruit',
+      title: 'Careers',
       href: 'https://hrmos.co/pages/genda/jobs',
     },
   ],
