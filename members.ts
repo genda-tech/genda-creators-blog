@@ -133,4 +133,15 @@ export const members: Member[] = [
     githubUsername: 'WorldDownTown',
     websiteUrl: 'https://qiita.com/WorldDownTown',
   },
+  {
+    id: 'namiki',
+    nickname: 'なみき',
+    realName: '木村奈美',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/namiki.png',
+    sources: [ 'https://namikiwi.hatenablog.com/feed' ],
+    twitterUsername: 'sasaki445',
+    githubUsername: 'namiki64',
+    websiteUrl: 'https://namikiwi.hatenablog.com',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
