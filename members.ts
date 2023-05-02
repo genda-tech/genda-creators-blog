@@ -144,4 +144,15 @@ export const members: Member[] = [
     githubUsername: 'namiki64',
     websiteUrl: 'https://namikiwi.hatenablog.com',
   },
+  {
+    id: 'yamaguchi',
+    nickname: 'yamaguchi',
+    realName: '山口歩夢',
+    bio: 'Data Engineer',
+    avatarSrc: '/avatars/yamaguchi.jpeg',
+    sources: [ 'https://qiita.com/Ayumu-y/feed' ],
+    twitterUsername: 'Yamaguchi_aaaaa',
+    githubUsername: 'gussan-me',
+    websiteUrl: 'https://qiita.com/Ayumu-y',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
