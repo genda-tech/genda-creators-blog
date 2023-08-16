@@ -155,4 +155,15 @@ export const members: Member[] = [
     githubUsername: 'gussan-me',
     websiteUrl: 'https://qiita.com/Ayumu-y',
   },
+  {
+    id: 'tomatsu',
+    nickname: 'tomatsu',
+    realName: '戸松真太朗',
+    bio: 'Data Scientist',
+    avatarSrc: '/avatars/tomatsu.jpeg',
+    sources: [ 'https://zenn.dev/toma2/feed' ],
+    // twitterUsername: '',
+    githubUsername: 'tomatsuShi',
+    websiteUrl: 'https://zenn.dev/toma2',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
