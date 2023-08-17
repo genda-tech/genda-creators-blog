@@ -165,5 +165,16 @@ export const members: Member[] = [
     // twitterUsername: '',
     githubUsername: 'tomatsuShi',
     websiteUrl: 'https://zenn.dev/toma2',
+  },  
+  {
+    id: 'matsumura',
+    nickname: 'matsumura',
+    realName: '松村聡士',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/smatsumura.png',
+    sources: [ 'https://wordpress.nazoweb.com/feed' ],
+    // twitterUsername: '',
+    // githubUsername: '',
+    websiteUrl: 'https://wordpress.nazoweb.com/',
   },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
