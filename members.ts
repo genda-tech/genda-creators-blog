@@ -177,4 +177,15 @@ export const members: Member[] = [
     // githubUsername: '',
     websiteUrl: 'https://wordpress.nazoweb.com/',
   },
+  {
+    id: 'shinnoki',
+    nickname: 'shinnoki',
+    realName: '進木裕大',
+    bio: 'FE/BE Engineer',
+    avatarSrc: '/avatars/shinnoki.jpeg',
+    sources: [ 'https://zenn.dev/shinnoki/feed', 'https://qiita.com/shinnoki/feed' ],
+    twitterUsername: 'y_shinnoki',
+    githubUsername: 'shinnoki',
+    websiteUrl: 'https://zenn.dev/shinnoki',
+  }
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
