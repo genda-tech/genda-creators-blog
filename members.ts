@@ -52,7 +52,7 @@ export const members: Member[] = [
     bio: 'Engineer',
     avatarSrc: '/avatars/ring.jpeg',
     sources: [ 'https://zenn.dev/natoring/feed' ],
-    twitterUsername: 'ahiru___z',
+    twitterUsername: 'nato_ring',
     githubUsername: 'natoring',
     websiteUrl: 'https://qiita.com/ahiru___',
   },
