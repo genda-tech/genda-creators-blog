@@ -37,8 +37,13 @@ async function getFeedItemsFromSources(sources: undefined | string[]) {
   if (!sources?.length) return [];
   let feedItems: FeedItem[] = [];
   for (const url of sources) {
-    const items = await fetchFeedItems(url);
-    if (items) feedItems = [...feedItems, ...items];
+    try {
+      const items = await fetchFeedItems(url);
+      if (items) feedItems = [...feedItems, ...items];
+    } catch (error) {
+      console.error('Failed to fetch feed items from', url);
+      throw error;
+    }
   }
   return feedItems;
 }
