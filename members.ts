@@ -191,7 +191,7 @@ export const members: Member[] = [
   {
     id: 'kinako',
     nickname: 'kinako',
-    realName: '大河内 明日香',
+    realName: '大河内明日香',
     bio: 'Product Manager',
     avatarSrc: '/avatars/kinako.jpeg',
     sources: [ 'https://note.com/asuka_okochi_131' ],
