@@ -194,7 +194,7 @@ export const members: Member[] = [
     realName: '大河内明日香',
     bio: 'Product Manager',
     avatarSrc: '/avatars/kinako.jpeg',
-    sources: [ 'https://note.com/asuka_okochi_131' ],
+    sources: [ 'https://note.com/asuka_okochi_131/rss' ],
     twitterUsername: 'asukaokochi',
     githubUsername: 'asukaokochi',
     websiteUrl: 'https://note.com/asuka_okochi_131',
