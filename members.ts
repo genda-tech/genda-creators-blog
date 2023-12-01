@@ -187,5 +187,16 @@ export const members: Member[] = [
     twitterUsername: 'y_shinnoki',
     githubUsername: 'shinnoki',
     websiteUrl: 'https://zenn.dev/shinnoki',
+  },
+  {
+    id: 'kinako',
+    nickname: 'kinako',
+    realName: '大河内明日香',
+    bio: 'Product Manager',
+    avatarSrc: '/avatars/kinako.jpeg',
+    sources: [ 'https://note.com/asuka_okochi_131' ],
+    twitterUsername: 'asukaokochi',
+    githubUsername: 'asukaokochi',
+    websiteUrl: 'https://note.com/asuka_okochi_131',
   }
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
