@@ -128,7 +128,7 @@ export const members: Member[] = [
     realName: '庄司啓輔',
     bio: 'Engineer',
     avatarSrc: '/avatars/worlddowntown.jpeg',
-    sources: [ 'https://qiita.com/WorldDownTown/feed' ],
+    sources: [ 'https://qiita.com/WorldDownTown/feed', 'https://zenn.dev/worlddowntown/feed' ],
     twitterUsername: 'WorldDownTown',
     githubUsername: 'WorldDownTown',
     websiteUrl: 'https://qiita.com/WorldDownTown',
