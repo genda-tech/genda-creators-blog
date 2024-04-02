@@ -203,7 +203,7 @@ export const members: Member[] = [
     id: 'ken2403',
     nickname: 'ken2403',
     realName: '西尾健人',
-    bio: 'FE/BE Engineer',
+    bio: 'Engineer',
     avatarSrc: '/avatars/ken2403.jpeg',
     sources: ['https://zenn.dev/ken2403/feed'],
     // twitterUsername: '',
