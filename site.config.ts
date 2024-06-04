@@ -21,7 +21,7 @@ export const config = {
     },
     {
       title: 'Careers',
-      href: 'https://hrmos.co/pages/genda/jobs',
+      href: 'https://genda.jp/careers/',
     },
   ],
   gaTrackingId: process.env.gaTrackingId,
