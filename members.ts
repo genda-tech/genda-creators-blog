@@ -214,7 +214,7 @@ export const members: Member[] = [
     id: 'kensan1352',
     nickname: 'kenshiro',
     realName: '田中謙志郎',
-    bio: 'CorprateIT',
+    bio: 'CorporateIT',
     avatarSrc: '/avatars/kenshiro.jpg',
     sources: ['https://zenn.dev/kenshiro/feed'],
     twitterUsername: 'kensan_p',
