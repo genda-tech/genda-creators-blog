@@ -226,7 +226,7 @@ export const members: Member[] = [
     nickname: 'ume3',
     realName: '梅谷敦',
     bio: 'EM',
-    avatarSrc: '/avatars/bob.jpg',
+    avatarSrc: '/avatars/ume3.jpg',
     sources: ['https://zenn.dev/b0b/feed'],
     twitterUsername: 'ume3_',
     githubUsername: 'ume3',
