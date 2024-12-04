@@ -139,10 +139,10 @@ export const members: Member[] = [
     realName: '木村奈美',
     bio: 'Engineer',
     avatarSrc: '/avatars/namiki.png',
-    sources: ['https://namikiwi.hatenablog.com/feed'],
+    sources: ['https://zenn.dev/namiki64/feed'],
     twitterUsername: 'sasaki445',
     githubUsername: 'namiki64',
-    websiteUrl: 'https://namikiwi.hatenablog.com',
+    websiteUrl: 'https://zenn.dev/namiki64',
   },
   {
     id: 'yamaguchi',
