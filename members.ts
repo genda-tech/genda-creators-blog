@@ -57,17 +57,6 @@ export const members: Member[] = [
     websiteUrl: 'https://qiita.com/ahiru___',
   },
   {
-    id: 'kommy',
-    nickname: 'kommy',
-    realName: '小宮山紘平',
-    bio: 'Data Engineer',
-    avatarSrc: '/avatars/kommy.jpeg',
-    sources: ['https://zenn.dev/kommy339/feed'],
-    twitterUsername: 'kommy_jp',
-    githubUsername: 'momatan',
-    websiteUrl: 'https://zenn.dev/kommy339',
-  },
-  {
     id: 'nishisuke',
     nickname: 'にっしー',
     realName: '西上良祐',
