@@ -95,7 +95,7 @@ export const members: Member[] = [
     realName: '千葉俊輝',
     bio: 'Product Manager',
     avatarSrc: '/avatars/tochiba.jpeg',
-    sources: ['https://note.com/tochiba/rss'],
+    //sources: [''],
     twitterUsername: '104kn',
     githubUsername: 'tochiba',
     websiteUrl: 'https://note.com/tochiba',
