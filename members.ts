@@ -220,5 +220,16 @@ export const members: Member[] = [
     twitterUsername: 'ume3_',
     githubUsername: 'ume3',
     websiteUrl: 'https://zenn.dev/b0b',
-  }
+  },
+  {
+    id: 'nsi',
+    nickname: 'Nsi',
+    // realName: '',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/nsi.png',
+    sources: ['https://zenn.dev/nsi/feed'],
+    // twitterUsername: '',
+    githubUsername: 'nnsi',
+    websiteUrl: 'https://zenn.dev/nsi',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
