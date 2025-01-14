@@ -232,4 +232,15 @@ export const members: Member[] = [
     githubUsername: 'nnsi',
     websiteUrl: 'https://zenn.dev/nsi',
   },
+  {
+    id: 'muramatu',
+    nickname: 'muramatu',
+    realName: '村松宏祐',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/muramatu.jpg',
+    sources: ['https://zenn.dev/muramatu/feed'],
+    // twitterUsername: '',
+    // githubUsername: '',
+    websiteUrl: 'https://zenn.dev/muramatu',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
