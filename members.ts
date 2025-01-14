@@ -226,7 +226,7 @@ export const members: Member[] = [
     nickname: 'Nsi',
     // realName: '',
     bio: 'Engineer',
-    avatarSrc: '/avatars/nsi.jpg',
+    avatarSrc: '/avatars/nsi.png',
     sources: ['https://zenn.dev/nsi/feed'],
     // twitterUsername: '',
     githubUsername: 'nnsi',
