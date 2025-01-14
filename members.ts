@@ -220,5 +220,16 @@ export const members: Member[] = [
     twitterUsername: 'ume3_',
     githubUsername: 'ume3',
     websiteUrl: 'https://zenn.dev/b0b',
-  }
+  },
+  {
+    id: 'muramatu',
+    nickname: 'muramatu',
+    realName: '村松宏祐',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/muramatu.jpg',
+    sources: ['https://zenn.dev/muramatu/feed'],
+    // twitterUsername: '',
+    //githubUsername: '',
+    websiteUrl: 'https://zenn.dev/muramatu',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
