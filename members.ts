@@ -222,6 +222,17 @@ export const members: Member[] = [
     websiteUrl: 'https://zenn.dev/b0b',
   },
   {
+    id: 'nsi',
+    nickname: 'Nsi',
+    // realName: '',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/nsi.png',
+    sources: ['https://zenn.dev/nsi/feed'],
+    // twitterUsername: '',
+    githubUsername: 'nnsi',
+    websiteUrl: 'https://zenn.dev/nsi',
+  },
+  {
     id: 'muramatu',
     nickname: 'muramatu',
     realName: '村松宏祐',
@@ -229,7 +240,7 @@ export const members: Member[] = [
     avatarSrc: '/avatars/muramatu.jpg',
     sources: ['https://zenn.dev/muramatu/feed'],
     // twitterUsername: '',
-    //githubUsername: '',
+    // githubUsername: '',
     websiteUrl: 'https://zenn.dev/muramatu',
   },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
