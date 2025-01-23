@@ -249,7 +249,7 @@ export const members: Member[] = [
     realName: '安藤麻友',
     bio: 'QA',
     avatarSrc: '/avatars/dosan.jpeg',
-    sources: ['https://zenn.dev/dosan/feed'],
+    sources: ['https://zenn.dev/dosan/feed?'],
     // twitterUsername: '',
     // githubUsername: '',
     websiteUrl: 'https://zenn.dev/dosan',
