@@ -11,9 +11,15 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 22.x
           cache: yarn
 
-      - run: yarn
+      - run: |
+          export NODE_OPTIONS=--openssl-legacy-provider
+          yarn
 
-      - run: yarn build
+      - run: npx browserslist@latest --update-db
+
+      - run: |
+          export NODE_OPTIONS=--openssl-legacy-provider
+          yarn build
