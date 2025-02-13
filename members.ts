@@ -265,4 +265,15 @@ export const members: Member[] = [
     githubUsername: 'i9wa4',
     websiteUrl: 'https://zenn.dev/i9wa4',
   },
+  {
+    id: 'satorun',
+    nickname: 'satorun',
+    realName: '西村悟',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/satorun.jpeg',
+    sources: ['https://zenn.dev/satorun/feed'],
+    twitterUsername: 'satorun',
+    githubUsername: 'satorun',
+    websiteUrl: 'https://zenn.dev/satorun',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
