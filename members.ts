@@ -35,17 +35,6 @@ export const members: Member[] = [
     websiteUrl: 'https://zenn.dev/7kaji',
   },
   {
-    id: 'kotatsu360',
-    nickname: 'kotatsu360',
-    realName: '光野達朗',
-    bio: 'SRE',
-    avatarSrc: '/avatars/kotatsu360.png',
-    sources: ['https://qiita.com/kotatsu360/feed'],
-    twitterUsername: 'kotatsu360',
-    githubUsername: 'kotatsu360',
-    websiteUrl: 'https://qiita.com/kotatsu360',
-  },
-  {
     id: 'ring',
     nickname: 'ring',
     realName: '名取弘平',
