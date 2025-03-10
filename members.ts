@@ -3,7 +3,7 @@ import { Member } from '@src/types';
 export const members: Member[] = [
   {
     id: 'genda',
-    nickname: 'GEDNDA 公式アカウント',
+    nickname: 'GENDA 公式アカウント',
     avatarSrc: '/avatars/genda.png',
     sources: ['https://zenn.dev/genda/feed'],
     twitterUsername: 'GENDA_jp',
