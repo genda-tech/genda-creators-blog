@@ -2,6 +2,14 @@ import { Member } from '@src/types';
 
 export const members: Member[] = [
   {
+    id: 'genda',
+    nickname: 'GENDA 公式アカウント',
+    avatarSrc: '/avatars/genda.png',
+    sources: ['https://zenn.dev/genda/feed'],
+    twitterUsername: 'GENDA_jp',
+    websiteUrl: 'https://zenn.dev/genda',
+  },
+  {
     id: 'ararajp',
     nickname: 'あらら',
     realName: '荒井勇輔',
