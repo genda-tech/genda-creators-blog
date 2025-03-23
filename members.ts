@@ -131,17 +131,6 @@ export const members: Member[] = [
     websiteUrl: 'https://zenn.dev/namiki64',
   },
   {
-    id: 'yamaguchi',
-    nickname: 'yamaguchi',
-    realName: '山口歩夢',
-    bio: 'Data Engineer',
-    avatarSrc: '/avatars/yamaguchi.jpeg',
-    sources: ['https://qiita.com/Ayumu-y/feed'],
-    twitterUsername: 'Yamaguchi_aaaaa',
-    githubUsername: 'gussan-me',
-    websiteUrl: 'https://qiita.com/Ayumu-y',
-  },
-  {
     id: 'tomatsu',
     nickname: 'tomatsu',
     realName: '戸松真太朗',
