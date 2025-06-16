@@ -283,4 +283,14 @@ export const members: Member[] = [
     githubUsername: "chittai",
     websiteUrl: "https://zenn.dev/chittai",
   },
+  {
+    id: "yukiblue63",
+    nickname: "yuki",
+    realName: "大澤優貴",
+    bio: "SRE/インフラ",
+    avatarSrc: "/avatars/chittai.png",
+    sources: ["https://zenn.dev/yukiblue63/feed"],
+    githubUsername: "yukiblue63",
+    websiteUrl: "https://zenn.dev/yukiblue63",
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
