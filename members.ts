@@ -288,7 +288,7 @@ export const members: Member[] = [
     nickname: "yuki",
     realName: "大澤優貴",
     bio: "SRE/インフラ",
-    avatarSrc: "/avatars/chittai.png",
+    avatarSrc: "/avatars/yukiblue63.png",
     sources: ["https://zenn.dev/yukiblue63/feed"],
     githubUsername: "yukiblue63",
     websiteUrl: "https://zenn.dev/yukiblue63",
