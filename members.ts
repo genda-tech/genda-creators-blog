@@ -302,4 +302,15 @@ export const members: Member[] = [
     githubUsername: "tsumuchan",
     websiteUrl: "https://qiita.com/tsumuchan",
   },
+  {
+    id: 'oddgai',
+    nickname: 'oddgai',
+    realName: '小貝洸希',
+    bio: 'Data Scientist',
+    avatarSrc: '/avatars/oddgai.jpeg',
+    sources: ['https://zenn.dev/oddgai/feed'],
+    // twitterUsername: '',
+    githubUsername: 'oddgai',
+    websiteUrl: 'https://zenn.dev/oddgai',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
