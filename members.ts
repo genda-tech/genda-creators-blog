@@ -147,10 +147,10 @@ export const members: Member[] = [
     realName: '松村聡士',
     bio: 'Engineer',
     avatarSrc: '/avatars/smatsumura.png',
-    sources: ['https://wordpress.nazoweb.com/feed'],
+    sources: ['https://zenn.dev/hamusack/feed'],
     // twitterUsername: '',
     // githubUsername: '',
-    websiteUrl: 'https://wordpress.nazoweb.com/',
+    websiteUrl: 'https://zenn.dev/hamusack/',
   },
   {
     id: 'shinnoki',
