@@ -22,17 +22,13 @@ jobs:
           node-version: 22.x
           cache: yarn
 
-      - run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
-          yarn
+      - run: yarn
 
       - run: npx browserslist@latest --update-db
 
       # リスト更新
       - name: Recreate all posts
-        run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
-          yarn build:posts
+        run: yarn build:posts
 
       - uses: amondnet/vercel-action@v20
         with:
