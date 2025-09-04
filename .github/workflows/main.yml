@@ -15,22 +15,16 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 22.x
+          node-version: 18.x
           cache: yarn
 
-      - run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
-          yarn
+      - run: yarn
 
       - run: npx browserslist@latest --update-db
 
-      - run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
-          yarn build
+      - run: yarn build
         # env:
         #   URL_PREFIX: team-blog-hub
-
-      - run: yarn export
 
       - name: Copy CNAME
         run: cp CNAME out/CNAME

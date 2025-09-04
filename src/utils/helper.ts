@@ -28,7 +28,7 @@ export function getMemberPath(id: string) {
   return `/members/${encodeURIComponent(id)}`;
 }
 export function getPathnameFromAccess() {
-  var pathname = process.browser ? location.pathname : ''
+  var pathname = typeof window !== 'undefined' ? location.pathname : ''
   return pathname;
 }
 export function getTitleFromPathname() {

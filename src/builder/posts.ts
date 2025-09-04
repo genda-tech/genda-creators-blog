@@ -2,7 +2,8 @@ import fs from 'fs-extra';
 import Parser from 'rss-parser';
 import { members } from '../../members';
 import { PostItem, Member } from '../types';
-export default {};
+
+const builderModule = {};
 
 type FeedItem = {
   title: string;
@@ -85,3 +86,5 @@ async function getMemberFeedItems(member: Member): Promise<PostItem[]> {
   fs.ensureDirSync('.contents');
   fs.writeJsonSync('.contents/posts.json', allPostItems);
 })();
+
+export default builderModule;
