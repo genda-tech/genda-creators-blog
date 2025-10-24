@@ -318,7 +318,7 @@ export const members: Member[] = [
     nickname: 'iszkrit',
     realName: '磯崎雷太',
     bio: 'Engineer',
-    avatarSrc: '/avatars/iszkrit.jpeg',
+    avatarSrc: '/avatars/iszkrit.png',
     sources: ['https://zenn.dev/iszkrit/feed'],
     // twitterUsername: '',
     githubUsername: 'iszkrit',
