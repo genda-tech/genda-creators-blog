@@ -313,4 +313,15 @@ export const members: Member[] = [
     githubUsername: 'oddgai',
     websiteUrl: 'https://zenn.dev/oddgai',
   },
+  {
+    id: 'iszkrit',
+    nickname: 'iszkrit',
+    realName: '磯崎雷太',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/iszkrit.jpeg',
+    sources: ['https://zenn.dev/iszkrit/feed'],
+    // twitterUsername: '',
+    githubUsername: 'iszkrit',
+    websiteUrl: 'https://zenn.dev/iszkrit',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
