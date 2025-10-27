@@ -298,7 +298,7 @@ export const members: Member[] = [
     nickname: "tsumuchan",
     bio: "Engineer",
     avatarSrc: "/avatars/tsumuchan.png",
-    sources: ["https://qiita.com/tsumuchan/feed"],
+    sources: ["https://qiita.com/tsumuchan/feed", "https://zenn.dev/tsumuchan/feed"],
     githubUsername: "tsumuchan",
     websiteUrl: "https://qiita.com/tsumuchan",
   },
