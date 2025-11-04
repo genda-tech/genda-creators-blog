@@ -324,7 +324,7 @@ export const members: Member[] = [
     githubUsername: 'iszkrit',
     websiteUrl: 'https://zenn.dev/iszkrit',
   },
-   {
+  {
     id: 'ytakagi',
     nickname: 'ytakagi',
     realName: '高木幸弥',
@@ -334,5 +334,16 @@ export const members: Member[] = [
     // twitterUsername: '',
     githubUsername: 'y-takagi',
     websiteUrl: 'https://zenn.dev/ytakagi',
+  },
+  {
+    id: 'okuyama',
+    nickname: 'okuyama',
+    realName: '奥山和歩',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/okuyama.png',
+    sources: ['https://zenn.dev/okkun0524/feed'],
+    // twitterUsername: '',
+    githubUsername: 'okkun0524',
+    websiteUrl: 'https://zenn.dev/okkun0524',
   },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
