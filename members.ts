@@ -357,4 +357,15 @@ export const members: Member[] = [
     githubUsername: 'URAPRO',
     websiteUrl: 'https://zenn.dev/adi',
   },
+  {
+    id: 'haruka',
+    nickname: 'haruka',
+    realName: '谷川春華',
+    bio: 'IT Application',
+    avatarSrc: '/avatars/haruka.png',
+    sources: ['https://zenn.dev/mametarox/feed'],
+    // twitterUsername: '',
+    // githubUsername: '',
+    websiteUrl: 'https://zenn.dev/mametarox',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
