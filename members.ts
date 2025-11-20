@@ -368,4 +368,15 @@ export const members: Member[] = [
     // githubUsername: '',
     websiteUrl: 'https://zenn.dev/mametarox',
   },
+  {
+    id: '96kudye',
+    nickname: '96kudye',
+    // realName: '',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/96kudye.jpg',
+    sources: ['https://zenn.dev/96kudye/feed'],
+    // twitterUsername: '',
+    githubUsername: '96kudye',
+    websiteUrl: 'https://zenn.dev/96kudye',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
