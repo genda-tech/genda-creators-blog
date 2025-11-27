@@ -379,4 +379,15 @@ export const members: Member[] = [
     githubUsername: '96kudye',
     websiteUrl: 'https://zenn.dev/96kudye',
   },
+  {
+    id: 'ryosuke749',
+    nickname: 'ryosuke749',
+    // realName: '',
+    bio: 'Engineer',
+    avatarSrc: '/avatars/ryosuke749.jpg',
+    sources: ['https://qiita.com/ryosuke749/feed'],
+    // twitterUsername: '',
+    githubUsername: 'ryosuke749',
+    websiteUrl: 'https://qiita.com/ryosuke749',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
