@@ -390,4 +390,15 @@ export const members: Member[] = [
     githubUsername: 'ryosuke749',
     websiteUrl: 'https://qiita.com/ryosuke749',
   },
+    {
+    id: 'nokawa',
+    nickname: 'nokawa',
+    realName: '大川成美',
+    bio: 'Data Engineer',
+    avatarSrc: '/avatars/nokawa.jpeg',
+    sources: ['https://zenn.dev/nokawa/feed'],
+    // twitterUsername: '',
+    githubUsername: 'narumiokawa',
+    websiteUrl: 'https://zenn.dev/nokawa',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
