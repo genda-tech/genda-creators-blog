@@ -390,7 +390,7 @@ export const members: Member[] = [
     githubUsername: 'ryosuke749',
     websiteUrl: 'https://qiita.com/ryosuke749',
   },
-    {
+  {
     id: 'nokawa',
     nickname: 'nokawa',
     realName: '大川成美',
@@ -400,5 +400,16 @@ export const members: Member[] = [
     // twitterUsername: '',
     githubUsername: 'narumiokawa',
     websiteUrl: 'https://zenn.dev/nokawa',
+  },
+  {
+    id: 'am02',
+    nickname: 'am02',
+    // realName: '',
+    bio: 'IT Application',
+    avatarSrc: '/avatars/am02.png',
+    sources: ['https://qiita.com/am02/feed'],
+    // twitterUsername: '',
+    // githubUsername: '',
+    websiteUrl: 'https://qiita.com/am02',
   },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
