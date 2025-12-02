@@ -352,7 +352,7 @@ export const members: Member[] = [
     realName: '北林拓人',
     bio: 'Engineering Manager',
     avatarSrc: '/avatars/urapro.jpg',
-    sources: ['https://zenn.dev/adi/feed'],
+    sources: ['https://zenn.dev/adi/feed', 'https://note.com/urapro/rss'],
     twitterUsername: 'tk_adio',
     githubUsername: 'URAPRO',
     websiteUrl: 'https://zenn.dev/adi',
