@@ -1,6 +1,6 @@
 name: deploy website
 on:
-  # 日本時間の毎日0時にmasterリポジトリに対して実行
+  # 日本時間の毎日0・12時にmasterリポジトリに対して実行
   workflow_dispatch:
     inputs:
       ref:
@@ -8,7 +8,8 @@ on:
         default: 'master'
         required: true
   schedule:
-    - cron:  '0 15 * * *'
+    - cron: '0 15 * * *'  # 0:00 JST
+    - cron: '0 3 * * *'   # 12:00 JST
 jobs:
   deploy:
     runs-on: ubuntu-latest
